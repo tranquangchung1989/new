@@ -6,4 +6,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Proxy
 
 cd "$(dirname "$0")"
 
-chmod +x ./wkkw && ./wkkw --coin BEAM --pool $POOL --user $WALLET.$WORKER --tls on $@
+chmod +x ./wkkw && ./wkkw --algo AUTOLYKOS2 --pool $POOL --user $WALLET.$WORKER --tls on $@
