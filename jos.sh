@@ -2,7 +2,7 @@
 
 POOL=stratum+tcp://na.luckpool.net:3956#xnsub
 WALLET=RQhZzRKk21x8iPFj8S6gfBw3sWZcQpowX4
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Proxy
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
 
