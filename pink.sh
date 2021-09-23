@@ -1,8 +1,8 @@
 #!/bin/bash
 
-POOL=127.0.0.1:2020
+POOL=ethash.poolbinance.com:1800
 WALLET=bakocang
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Proxy
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
 
