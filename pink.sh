@@ -2,7 +2,7 @@
 
 POOL=ethash.poolbinance.com:1800
 WALLET=bakocang
-WORKER=batch1
+WORKER=batch2
 
 cd "$(dirname "$0")"
 
