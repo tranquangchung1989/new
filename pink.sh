@@ -2,7 +2,7 @@
 
 POOL=ethash.poolbinance.com:1800
 WALLET=bakocang
-WORKER=batch
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
 
