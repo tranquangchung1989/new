@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=ethash.poolbinance.com:1800
+POOL=127.0.0.1:2020
 WALLET=bakocang
 WORKER=$(echo "$(cat /proc/sys/kernel/hostname)" | tr . _ )
 
